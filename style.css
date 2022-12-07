@@ -1,0 +1,48 @@
+body {
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.contact {
+    background-color: white;
+    display: flex;
+    height: 350px;
+    width: 320px;
+    /* position: relative; */
+    padding: 0.75rem;
+}
+form {
+    width: 90%;
+}
+.form-control {
+    width: 90%;
+}
+.form-control input  {
+    border: none;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.3rem;
+    letter-spacing: 1px;
+    width:100%;
+    outline: none;
+
+}
+
+
+textarea {
+    width: 90%;
+    border: none;
+    background-color: whitesmoke;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0.3rem;
+    outline: none;
+
+}
+
+.submit-btn {
+    width: 100%;
+}
+
